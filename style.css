@@ -1258,6 +1258,8 @@ ul.flex-direction-nav li .next, ul.flex-direction-nav li .prev {
     cursor: default;
 }
 
-
-
+/* adjust the position of this thing so it doesn't overlap the header/nav*/
+footer #follow.right{
+    top: 150px;
+}
 
