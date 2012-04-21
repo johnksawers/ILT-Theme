@@ -50,7 +50,7 @@ class W2F_Service_Widget extends WP_Widget {
 		$widget_ops = array( 'classname' => 'W2F_Service_Widget', 'description' => __('A widget to display services.', 'web2feel') );
 
 		/* Widget control settings. */
-		//$control_ops = array( 'width' => 300, 'height' => 350, 'id_base' => 'W2F_Testimonial_Widget' );
+		$control_ops = array( 'width' => 300, 'height' => 350, 'id_base' => 'W2F_Testimonial_Widget' );
 
 		/* Create the widget. */
 		$this->WP_Widget( 'W2F_Service_Widget', __('W2F Service widget', 'web2feel'), $widget_ops, $control_ops );
